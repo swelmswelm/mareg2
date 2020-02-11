@@ -1,5 +1,5 @@
-t_ref = [20 0 0]';
-angles = [0, 0];
+t_ref = [2 0 0]';
+angles = [pi, pi];
 
 
 a1 = angles(1);
@@ -24,4 +24,5 @@ u_star = pinv(B*K) * t_ref;
 
 [u_cmd, a_cmd] = make_thrust_valid(u_star, angles);
 u_cmd
+a_cmd
 
