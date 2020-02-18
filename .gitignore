@@ -26,16 +26,8 @@ octave-workspace
 Simulink system/ctrl_custom_niVeriStand_VxWorks_rtw/
 ctrl_custom_niVeriStand_VxWorks_rtw/
 
-Simulink system/CSE1_HIL_u_niVeriStand_VxWorks_rtw/
 Simulink system/ctrl_custom_niVeriStand_VxWorks_rtw/
-Simulink system/ctrl_DP_niVeriStand_VxWorks_rtw/
-Simulink system/ctrl_sixaxis2thruster_niVeriStand_VxWorks_rtw/
 Simulink system/slprj/
-Simulink system/u2pwm_niVeriStand_VxWorks_rtw/
 
-CSE1_HIL_u_niVeriStand_VxWorks_rtw/
 ctrl_custom_niVeriStand_VxWorks_rtw/
-ctrl_DP_niVeriStand_VxWorks_rtw/
-ctrl_sixaxis2thruster_niVeriStand_VxWorks_rtw/
 slprj/
-u2pwm_niVeriStand_VxWorks_rtw/
