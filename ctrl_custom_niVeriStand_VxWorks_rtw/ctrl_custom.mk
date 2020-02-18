@@ -85,7 +85,7 @@ ALT_MATLAB_ROOT 		= C:/PROGRA~1/MATLAB/R2016b
 MATLAB_BIN      		= C:/Program Files/MATLAB/R2016b/bin
 ALT_MATLAB_BIN  		= C:/PROGRA~1/MATLAB/R2016b/bin
 MASTER_ANCHOR_DIR    	= 
-START_DIR          		= C:/Users/MCLab/DOWNLO~1/CS_ENT~1/CS_ENT~1/SIMULI~1
+START_DIR          		= C:/Users/MCLab/Documents/GitHub/mareg2
 S_FUNCTIONS     		= 
 S_FUNCTIONS_LIB 		= 
 SOLVER          		= 
@@ -159,6 +159,7 @@ ADD_INCLUDES = \
 	-I$(MATLAB_ROOT)/simulink/include/sf_runtime \
 	-I$(START_DIR)/ctrl_custom_niVeriStand_VxWorks_rtw \
 	-I$(START_DIR) \
+	-I$(START_DIR)/SIMULI~1 \
 
 
 SHARED_INCLUDES =

@@ -1,5 +1,5 @@
 /*
- * rtGetNaN.h
+ * ctrl_custom_types.h
  *
  * Academic License - for use in teaching, academic research, and meeting
  * course requirements at degree granting institutions only.  Not for
@@ -7,9 +7,9 @@
  *
  * Code generation for model "ctrl_custom".
  *
- * Model version              : 1.66
+ * Model version              : 1.76
  * Simulink Coder version : 8.11 (R2016b) 25-Aug-2016
- * C source code generated on : Fri Jan 18 13:09:08 2019
+ * C source code generated on : Tue Feb 18 14:08:15 2020
  *
  * Target selection: NIVeriStand_VxWorks.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -18,13 +18,17 @@
  * Validation result: Not run
  */
 
-#ifndef RTW_HEADER_rtGetNaN_h_
-#define RTW_HEADER_rtGetNaN_h_
-#include <stddef.h>
+#ifndef RTW_HEADER_ctrl_custom_types_h_
+#define RTW_HEADER_ctrl_custom_types_h_
 #include "rtwtypes.h"
-#include "rt_nonfinite.h"
+#include "builtin_typeid_types.h"
+#include "multiword_types.h"
+#include "zero_crossing_types.h"
 
-extern real_T rtGetNaN(void);
-extern real32_T rtGetNaNF(void);
+/* Parameters (auto storage) */
+typedef struct P_ctrl_custom_T_ P_ctrl_custom_T;
 
-#endif                                 /* RTW_HEADER_rtGetNaN_h_ */
+/* Forward declaration for rtModel */
+typedef struct tag_RTM_ctrl_custom_T RT_MODEL_ctrl_custom_T;
+
+#endif                                 /* RTW_HEADER_ctrl_custom_types_h_ */

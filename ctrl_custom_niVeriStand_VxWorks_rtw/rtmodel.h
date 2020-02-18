@@ -1,5 +1,5 @@
 /*
- * rtwtypes.h
+ *  rtmodel.h:
  *
  * Academic License - for use in teaching, academic research, and meeting
  * course requirements at degree granting institutions only.  Not for
@@ -7,9 +7,9 @@
  *
  * Code generation for model "ctrl_custom".
  *
- * Model version              : 1.66
+ * Model version              : 1.76
  * Simulink Coder version : 8.11 (R2016b) 25-Aug-2016
- * C source code generated on : Fri Jan 18 13:09:08 2019
+ * C source code generated on : Tue Feb 18 14:08:15 2020
  *
  * Target selection: NIVeriStand_VxWorks.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -18,25 +18,12 @@
  * Validation result: Not run
  */
 
-#ifndef RTWTYPES_H
-#define RTWTYPES_H
-#include "tmwtypes.h"
-#include "simstruc_types.h"
-#ifndef POINTER_T
-# define POINTER_T
+#ifndef RTW_HEADER_rtmodel_h_
+#define RTW_HEADER_rtmodel_h_
 
-typedef void * pointer_T;
-
-#endif
-
-/* Logical type definitions */
-#if (!defined(__cplusplus))
-#  ifndef false
-#   define false                       (0U)
-#  endif
-
-#  ifndef true
-#   define true                        (1U)
-#  endif
-#endif
-#endif                                 /* RTWTYPES_H */
+/*
+ *  Includes the appropriate headers when we are using rtModel
+ */
+#include "ctrl_custom.h"
+#define GRTINTERFACE                   1
+#endif                                 /* RTW_HEADER_rtmodel_h_ */
