@@ -10,7 +10,7 @@
 				<String>CSE1</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.64</String>
+				<String>1.0.0.72</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -2612,10 +2612,10 @@
 									<Double>10000</Double>
 								</Property>
 								<Property Name="DLL Size">
-									<I32>128296</I32>
+									<I32>169568</I32>
 								</Property>
 								<Property Name="DLL Timestamp">
-									<Double>3632392807.7063007</Double>
+									<Double>3664875245.63843</Double>
 								</Property>
 								<Property Name="Decimation">
 									<I32>1</I32>
@@ -2648,7 +2648,7 @@
 									<Boolean>true</Boolean>
 								</Property>
 								<Property Name="MD5">
-									<String>b961d3b37d2f58684aba7b8e68eec3fb</String>
+									<String>05604a9fe85e159c09b732c76d028685</String>
 								</Property>
 								<Property Name="NIVeriStandServer Port">
 									<U32>6012</U32>
@@ -2662,7 +2662,7 @@
 										<ForceDownload>false</ForceDownload>
 										<RTDestination>c:\ni-rt\system\ctrl_custom.out</RTDestination>
 										<SupportedTarget>VxWorks</SupportedTarget>
-										<MD5>b961d3b37d2f58684aba7b8e68eec3fb</MD5>
+										<MD5>05604a9fe85e159c09b732c76d028685</MD5>
 									</DependentFile>
 								</Property>
 								<Property Name="GlobalParameterScopes">
@@ -2752,7 +2752,7 @@
 												<String>Pose/x_m</String>
 											</Property>
 											<Property Name="Index">
-												<I32>1</I32>
+												<I32>6</I32>
 											</Property>
 											<Property Name="DataSource">
 												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/CSE1_HIL_u/Outports/eta/x" />
@@ -2770,7 +2770,7 @@
 												<String>Pose/y_m</String>
 											</Property>
 											<Property Name="Index">
-												<I32>2</I32>
+												<I32>7</I32>
 											</Property>
 											<Property Name="DataSource">
 												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/CSE1_HIL_u/Outports/eta/y" />
@@ -2788,7 +2788,7 @@
 												<String>Pose/psi_m</String>
 											</Property>
 											<Property Name="Index">
-												<I32>3</I32>
+												<I32>8</I32>
 											</Property>
 											<Property Name="DataSource">
 												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/CSE1_HIL_u/Outports/eta/psi" />
@@ -2811,7 +2811,7 @@
 												<String>IMU/Acc_x</String>
 											</Property>
 											<Property Name="Index">
-												<I32>5</I32>
+												<I32>10</I32>
 											</Property>
 											<Property Name="DataSource">
 												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/CSE1_HIL_u/Outports/nu_dot/u_dot" />
@@ -2829,7 +2829,7 @@
 												<String>IMU/Acc_y</String>
 											</Property>
 											<Property Name="Index">
-												<I32>6</I32>
+												<I32>11</I32>
 											</Property>
 											<Property Name="DataSource">
 												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/CSE1_HIL_u/Outports/nu_dot/v_dot" />
@@ -2847,7 +2847,7 @@
 												<String>IMU/Acc_z</String>
 											</Property>
 											<Property Name="Index">
-												<I32>4</I32>
+												<I32>9</I32>
 											</Property>
 											<Property Name="DataSource">
 												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/CSE1_HIL_u/Outports/nu_dot/zeroout" />
@@ -2865,7 +2865,7 @@
 												<String>IMU/Gyro_x</String>
 											</Property>
 											<Property Name="Index">
-												<I32>7</I32>
+												<I32>12</I32>
 											</Property>
 											<Property Name="DataSource">
 												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/CSE1_HIL_u/Outports/nu_dot/zeroout" />
@@ -2883,7 +2883,7 @@
 												<String>IMU/Gyro_y</String>
 											</Property>
 											<Property Name="Index">
-												<I32>8</I32>
+												<I32>13</I32>
 											</Property>
 											<Property Name="DataSource">
 												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/CSE1_HIL_u/Outports/nu_dot/zeroout" />
@@ -2901,7 +2901,7 @@
 												<String>IMU/Gyro_z</String>
 											</Property>
 											<Property Name="Index">
-												<I32>9</I32>
+												<I32>14</I32>
 											</Property>
 											<Property Name="DataSource">
 												<DataSourceNode Channel="Targets/Controller/Simulation Models/Models/CSE1_HIL_u/Outports/nu/r" />
@@ -2928,6 +2928,96 @@
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
+								<Channel Name="Start_btn" TypeGUID="03D3B985-1485-13A6-56FC3200A1C00087" RowDim="1" ColDim="1" Units="" BitFields="7">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>Start_btn</String>
+										</Property>
+										<Property Name="Index">
+											<I32>5</I32>
+										</Property>
+										<Property Name="DataSource">
+											<DataSourceNode Channel="Targets/Controller/Custom Devices/WL_Joystick/Start" />
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Left joystick X" TypeGUID="03D3B985-1485-13A6-56FC3200A1C00087" RowDim="1" ColDim="1" Units="" BitFields="7">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>Left joystick X</String>
+										</Property>
+										<Property Name="Index">
+											<I32>1</I32>
+										</Property>
+										<Property Name="DataSource">
+											<DataSourceNode Channel="Targets/Controller/Custom Devices/WL_Joystick/PosXLeft" />
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Left joystick Y" TypeGUID="03D3B985-1485-13A6-56FC3200A1C00087" RowDim="1" ColDim="1" Units="" BitFields="7">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>Left joystick Y</String>
+										</Property>
+										<Property Name="Index">
+											<I32>2</I32>
+										</Property>
+										<Property Name="DataSource">
+											<DataSourceNode Channel="Targets/Controller/Custom Devices/WL_Joystick/PosYLeft" />
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="L2" TypeGUID="03D3B985-1485-13A6-56FC3200A1C00087" RowDim="1" ColDim="1" Units="" BitFields="7">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>L2</String>
+										</Property>
+										<Property Name="Index">
+											<I32>3</I32>
+										</Property>
+										<Property Name="DataSource">
+											<DataSourceNode Channel="Targets/Controller/Custom Devices/WL_Joystick/L2" />
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="R2" TypeGUID="03D3B985-1485-13A6-56FC3200A1C00087" RowDim="1" ColDim="1" Units="" BitFields="7">
+									<Description />
+									<Properties>
+										<Property Name="Model Path">
+											<String>R2</String>
+										</Property>
+										<Property Name="Index">
+											<I32>4</I32>
+										</Property>
+										<Property Name="DataSource">
+											<DataSourceNode Channel="Targets/Controller/Custom Devices/WL_Joystick/R2" />
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
 							</Section>
 							<Section Name="Outports" TypeGUID="03D3B9F3-1485-13A6-5698C14838D6AA3C">
 								<Description />
@@ -2944,7 +3034,7 @@
 												<String>u/alpha_VSP2</String>
 											</Property>
 											<Property Name="Index">
-												<I32>15</I32>
+												<I32>16</I32>
 											</Property>
 										</Properties>
 										<Errors />
@@ -2959,7 +3049,7 @@
 												<String>u/omega_VSP1</String>
 											</Property>
 											<Property Name="Index">
-												<I32>16</I32>
+												<I32>17</I32>
 											</Property>
 										</Properties>
 										<Errors />
@@ -2974,7 +3064,7 @@
 												<String>u/omega_VSP2</String>
 											</Property>
 											<Property Name="Index">
-												<I32>17</I32>
+												<I32>18</I32>
 											</Property>
 										</Properties>
 										<Errors />
@@ -2989,7 +3079,7 @@
 												<String>u/alpha_VSP1</String>
 											</Property>
 											<Property Name="Index">
-												<I32>18</I32>
+												<I32>19</I32>
 											</Property>
 										</Properties>
 										<Errors />
@@ -3004,7 +3094,7 @@
 												<String>u/u_BT</String>
 											</Property>
 											<Property Name="Index">
-												<I32>19</I32>
+												<I32>20</I32>
 											</Property>
 										</Properties>
 										<Errors />
@@ -3019,7 +3109,7 @@
 												<String>u/u_VSP1</String>
 											</Property>
 											<Property Name="Index">
-												<I32>20</I32>
+												<I32>21</I32>
 											</Property>
 										</Properties>
 										<Errors />
@@ -3034,7 +3124,7 @@
 												<String>u/u_VSP2</String>
 											</Property>
 											<Property Name="Index">
-												<I32>21</I32>
+												<I32>22</I32>
 											</Property>
 										</Properties>
 										<Errors />
@@ -3054,7 +3144,7 @@
 												<String>IMU/IMU_SCOPEZ</String>
 											</Property>
 											<Property Name="Index">
-												<I32>14</I32>
+												<I32>26</I32>
 											</Property>
 										</Properties>
 										<Errors />
@@ -3070,7 +3160,7 @@
 											<String>SIXAIS_OUT</String>
 										</Property>
 										<Property Name="Index">
-											<I32>10</I32>
+											<I32>15</I32>
 										</Property>
 									</Properties>
 									<Errors />
@@ -3085,7 +3175,7 @@
 											<String>QTM_SCOPEX</String>
 										</Property>
 										<Property Name="Index">
-											<I32>11</I32>
+											<I32>23</I32>
 										</Property>
 									</Properties>
 									<Errors />
@@ -3100,7 +3190,7 @@
 											<String>QTM_SCOPEY</String>
 										</Property>
 										<Property Name="Index">
-											<I32>12</I32>
+											<I32>24</I32>
 										</Property>
 									</Properties>
 									<Errors />
@@ -3115,7 +3205,7 @@
 											<String>QTM_SCOPEPSI</String>
 										</Property>
 										<Property Name="Index">
-											<I32>13</I32>
+											<I32>25</I32>
 										</Property>
 									</Properties>
 									<Errors />
