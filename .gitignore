@@ -25,3 +25,10 @@ octave-workspace
 # Verisand compile stuff
 Simulink system/ctrl_custom_niVeriStand_VxWorks_rtw/
 ctrl_custom_niVeriStand_VxWorks_rtw/
+
+CSE1_HIL_u_niVeriStand_VxWorks_rtw/
+ctrl_custom_niVeriStand_VxWorks_rtw/
+ctrl_DP_niVeriStand_VxWorks_rtw/
+ctrl_sixaxis2thruster_niVeriStand_VxWorks_rtw/
+slprj/
+u2pwm_niVeriStand_VxWorks_rtw/
